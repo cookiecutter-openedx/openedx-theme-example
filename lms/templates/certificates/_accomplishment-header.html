@@ -1,0 +1,25 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+
+<div class="wrapper-header">
+
+    <header class="header-app" role="banner">
+        <h1 class="header-app-title">
+            <a class="usf-logo" href="https://mooc.academiacentral.org">
+                ## ------------------------------------------------------------------------------
+                ## mcdaniel mar-2021
+                ## the base design includes a traditional header logo placed in the top-left of the page.
+                ## we are replacing this with a full-page width header image of the University
+                ## logo and College title text.
+                ## this will ensure that the university fonts, font size and font color remain consistent
+                ## and that the university logo remains proportional to the title text.
+                ## ------------------------------------------------------------------------------
+
+                ##<img class="logo-img" src="${logo_src}" alt="${_('{platform_name} Home').format(platform_name=platform_name)}" />
+                <img class="logo-img" src="https://cdn.academiacentral.org/certificate/muma-college-of-business/usf-certificate-logo-header.png" alt="${_('{platform_name} Home').format(platform_name=platform_name)}" />
+            </a>
+            ##<span class="sr-only">${logo_subtitle}</span>
+        </h1>
+    </header>
+
+</div>

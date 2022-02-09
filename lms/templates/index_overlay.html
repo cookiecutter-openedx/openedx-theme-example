@@ -1,0 +1,9 @@
+<%page expression_filter="h"/>
+
+<%!
+from django.utils.translation import ugettext as _
+from openedx.core.djangolib.markup import HTML, Text
+%>
+
+<h1>${Text(_(u"Welcome to {platform_name}")).format(platform_name=settings.PLATFORM_NAME)}</h1>
+<p>AcademiaCentral is committed to learners' success by providing open-access courses.</p>

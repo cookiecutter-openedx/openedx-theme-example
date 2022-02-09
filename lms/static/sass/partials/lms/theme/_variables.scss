@@ -1,0 +1,59 @@
+// Default bootstrap theming
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+
+    /*
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    */
+
+// Set primary them color overrides
+$primary: #317052;
+$info: #76A9FD;
+
+// re-map from Blues to Purples
+$m-blue: $primary;
+$m-blue-l1: #319852;
+$m-blue-l2: #31965A;
+$m-blue-l3: #7DAF7D;
+$m-blue-l4: #9CCB3B;
+$m-blue-l5: #31965A;
+$m-blue-l6: #4B967D;
+
+$m-blue-d1: #317D5A;
+$m-blue-d2: $primary;
+$m-blue-d3: #2D642D;
+$m-blue-d4: #1E643C;
+$m-blue-d5: #9CCB3B;
+$m-blue-d6: #347261;
+
+
+// Theme fonts
+//$font-family-sans-serif: 'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','sans-serif';
+
+@import 'edx-bootstrap/sass/open-edx/theme';
