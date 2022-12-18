@@ -225,6 +225,19 @@ from common.djangoapps.pipeline_mako import render_require_js_path_overrides
   <script type="text/javascript" src="${js}"></script>
   % endfor
   % endif
+
+  ## --------------------------------------------------------------------------
+  ## mcdaniel dec-2022
+  ## add ReactJS hooks
+  ## see: https://reactjs.org/docs/add-react-to-a-website.html
+  ## --------------------------------------------------------------------------
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  ## ADD YOUR OWN CUSTOM REACTJS SCRIPTS HERE
+  ## Note: these two example ReactJS apps are added to footer.html in this theme package.
+  <script src="hello-world-1.js"></script>
+  <script src="hello-world-2.js"></script>
 </body>
 </html>
 
