@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('reactjs-hook-hello-world-2'));
+const root = ReactDOM.createRoot(document.getElementById('reactjs-hello-world-2'));
 root.render(
   <React.StrictMode>
     <App />
