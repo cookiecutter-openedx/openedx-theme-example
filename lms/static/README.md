@@ -1,0 +1,1 @@
+add files and folders from https://github.com/openedx/edx-platform/tree/master/lms/templates
